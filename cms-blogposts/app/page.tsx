@@ -44,7 +44,7 @@ export default async function HomePage() {
 									className="flex flex-col bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden border border-gray-100"
 								>
 									<Link
-										href={`/posts/${slug}`}
+										href={`/posts/${post.fields.slug}`}
 										className="flex flex-col h-full group"
 									>
 										{/* Featured Image */}
