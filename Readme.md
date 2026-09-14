@@ -15,4 +15,4 @@ Build a responsive blog application using the Next.js App Router and Contentful 
 
 ## Deployment URL (Bonus)
 
-- Live Demo: [https://your-project-name.vercel.app](https://your-project-name.vercel.app)
+- Live Demo: [https://wd301-cms-blogposts.vercel.app/](https://wd301-cms-blogposts.vercel.app/)
