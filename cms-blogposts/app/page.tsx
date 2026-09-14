@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/contentful";
 
+export const revalidate = 60;
+
 export default async function HomePage() {
 	const posts = await getAllPosts();
 

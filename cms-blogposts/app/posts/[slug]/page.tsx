@@ -4,6 +4,9 @@ import Link from "next/link";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { getPostBySlug, getAllPosts } from "@/lib/contentful";
 
+export const revalidate = 60;
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
 	const posts = await getAllPosts();
 	return posts.map((post) => ({
