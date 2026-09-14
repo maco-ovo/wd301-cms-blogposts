@@ -67,7 +67,7 @@ export default async function HomePage() {
 										{/* Post Content */}
 										<div className="p-6 flex flex-col flex-1">
 											{/* Tags */}
-											{tags && Array.isArray(tags) && tags.length > 0 && (
+											{tags && tags.length > 0 && (
 												<div className="flex flex-wrap gap-2 mb-3">
 													{tags.map((tag, idx) => (
 														<span

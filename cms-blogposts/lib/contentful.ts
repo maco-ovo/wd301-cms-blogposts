@@ -7,7 +7,7 @@ export type BlogPostSkeleton = {
 		slug: EntryFieldTypes.Text;
 		featuredImage?: EntryFieldTypes.AssetLink;
 		date: EntryFieldTypes.Date;
-		tags: EntryFieldTypes.Text[];
+		tags: EntryFieldTypes.Array<EntryFieldTypes.Symbol>;
 		content: EntryFieldTypes.RichText;
 	};
 };
